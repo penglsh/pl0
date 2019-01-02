@@ -34,10 +34,12 @@
 
 ### 实验步骤
 1. 安装PASCAL编译系统：`安装free pascal IDE`
-2. 在命令行下编译修改后的pl0编译程序（假设文件名为compile.pas），主要命令为`fpc compile.pas`  
-   ![preview]()
-3. 在命令行下运行上述步骤生成的可执行文件compile.exe，进行程序的调试  
-   ![preview]()
+2. 在命令行下编译修改后的pl0编译程序（假设文件名为compile.pas），主要命令为`fpc compile.pas`，效果图如下：  
+   
+   ![preview](https://github.com/penglsh/pl0/raw/master/images/compile.PNG)  
+3. 在命令行下运行上述步骤生成的可执行文件compile.exe，进行程序的调试，效果图如下：  
+   
+   ![preview](https://github.com/penglsh/pl0/raw/master/images/run.PNG)  
 4. 读入给定的pl0源程序，编译其后把产生的代码写入到输出文件中
 
 ### 第一阶段
@@ -1996,5 +1998,6 @@
     5
     END PL/0
 ```  
-* 效果图如下：  
-    ![preview]()
+* 效果图如下： 
+    
+    ![preview](https://github.com/penglsh/pl0/raw/master/images/run2.PNG)
